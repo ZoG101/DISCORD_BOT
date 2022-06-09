@@ -1,0 +1,25 @@
+{
+  "name": "bot_discord",
+  "version": "0.4.0",
+  "description": "Bot de administração de servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Davi Morato",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^6.3.4",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
